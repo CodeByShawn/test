@@ -38,7 +38,7 @@ public class Test {
 			fos.close();
 		}
 	}
-	
+	//ÎÄ¼þ¸´ÖÆ
 	private static void copy(InputStream is,OutputStream os) throws IOException{
 		int len=0;
 		byte[] buf = new byte[1024];
