@@ -12,7 +12,7 @@ public class Test {
 	public static void main(String[] args) throws Exception {
 		File srcDir = new File("d:\\java");
 		if(!(srcDir.exists()&&srcDir.isDirectory())){
-			throw new Exception("ÎÄ¼þ²»´æÔÚ");
+			throw new Exception("ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		}
 		
 		File[] files = srcDir.listFiles(new FilenameFilter() {
@@ -38,7 +38,7 @@ public class Test {
 			fos.close();
 		}
 	}
-	//ÎÄ¼þ¸´ÖÆ
+	//copyæ–¹æ³•
 	private static void copy(InputStream is,OutputStream os) throws IOException{
 		int len=0;
 		byte[] buf = new byte[1024];
