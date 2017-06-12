@@ -12,7 +12,7 @@ public class Test {
 	public static void main(String[] args) throws Exception {
 		File srcDir = new File("d:\\java");
 		if(!(srcDir.exists()&&srcDir.isDirectory())){
-			throw new Exception("�ļ�������");
+			throw new Exception("文件不存在");
 		}
 		
 		File[] files = srcDir.listFiles(new FilenameFilter() {
